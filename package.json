@@ -1,0 +1,15 @@
+{
+  "name": "genius",
+  "version": "1.0.0",
+  "description": "NodeJS script for automated scheduled database backups",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ottersec",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^2.3.0",
+    "node-cron": "^3.1.0"
+  }
+}
